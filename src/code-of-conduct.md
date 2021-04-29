@@ -7,4 +7,6 @@ title: 'Code of Conduct'
 
 Rules for being in this webring.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga quae labore, at adipisci mollitia consequatur possimus sint dolor corrupti unde aperiam iste cumque repudiandae enim, aliquid optio amet, quo quia. Doloribus eius atque quis. Odit, culpa saepe! Perferendis, ratione. Laboriosam ratione quod doloribus perferendis? Minus sit itaque totam eius.
+1. You gotta be chill. This goes without saying.
+2. Programming content. This webring should be a group of cool programming blogs to skip around between.
+3. I don't know, just don't do bad stuff, ok! Otherwise, you'll get kicked. 
