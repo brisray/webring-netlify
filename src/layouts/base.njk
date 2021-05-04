@@ -7,19 +7,11 @@
 
     <title>{{ title or meta.title }}</title>
 
-    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
-    <link type="application/atom+xml" rel="alternate" href="feeds.xml" title="{{ meta.title }}">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <div class="layout">
-        <main class="layout__primary">
-            <div class="layout__content">
-                {{ content | safe }}
-            </div>
-        </main>
-        <aside class="layout__secondary">
-            {% include 'map.njk' %}
-        </aside>
+        {{ content | safe }}
     </div>
 </body>
 </html>

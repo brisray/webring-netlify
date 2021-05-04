@@ -3,7 +3,7 @@
     "description": "A group of chill programmer vibes. You can only join if you are chill and have programmer vibes.",
     "image": "porygon.jpg",
     "url": "https://chillprogrammers.netlify.com",
-    "repo": "https://github.com/e-hat/webring",
+    "repo": "https://github.com/e-hat/webring-netlify",
     "admins": [
         {
             "name": "Eddie Hatfield",

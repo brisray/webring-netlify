@@ -2,31 +2,25 @@
 layout: base
 ---
 
-{% include 'webring.njk' %}
+<h2 class="title">Chill Programmer's Webring</h2>
+<i>This page is under construction</i>
+<p>
+This is a webring of chill programming websites. 
+</p>
+<p>
+To join the webring, <a href="{{ meta.repo }}/compare">open a pull request</a> 
+and supply the name and URL of your site.
+</p>
+<p>
+If you don't have a Github account, you can also use this form to sign up. 
+Us chill programmers will check out your site and decide if it's worthy.
+</p>
 
-<div class="markdown">
-    <h2>How to join</h2>
-    <p>
-        To join the webring, <a href="{{ meta.repo }}/compare">open a pull request</a> 
-        and supply the name and URL of your site.
-    </p>
-    <p>
-        If you don't have a Github account, you can also use this form to sign up. 
-        Us chill programmers will check out your site and decide if it's worthy.
-    </p>
+{% include 'signupform.njk' %}
 
-    {% include 'signupform.njk' %}
+<h2>Add the banner</h2>
+<p>
+Once you've joined the ring, copy this code snippet into your site:
+</p>
 
-    <h2>Add the banner</h2>
-    <p>
-        Once you've joined the ring, copy this code snippet into your site:
-    </p>
-
-    {% highlight 'html' %}{% include 'snippet.njk' %}{% endhighlight %}
-
-    <p>
-        It will render this banner that links to the other members:
-    </p>
-
-    {% include 'snippet.njk' %}
-</div>
+{% highlight 'html' %}{% include 'snippet.njk' %}{% endhighlight %}
