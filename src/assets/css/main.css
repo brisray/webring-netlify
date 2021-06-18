@@ -1,17 +1,22 @@
 body {
     background-image: url("../images/background.png");
-    background-size: 50px;
+    background-size: 70px;
     font-family: 'Segoe UI', sans-serif;
 }
 
 .layout {
     background-color: black;
     margin: auto;
+    margin-top: 40px;
     color: white;
     padding: 40px;
     width: 60%;
     text-align: center;
-    border: 0px solid #3e00ec;
+    border: 5px solid grey;
     border-radius: 10px;
     overflow: auto;
+}
+
+.title {
+
 }
