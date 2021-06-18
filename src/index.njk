@@ -7,6 +7,14 @@ layout: base
 <p>
 This is a webring of chill programming websites. 
 </p>
+
+<h2>Members</h2>
+<ul class="member-list">
+{% for member in members %}
+<li class="member-item">
+<a href="{{ member.url }}" class="member-link">{{ member.title }}</a>
+{% endfor %}
+</ul>
 <p>
 To join the webring, <a href="{{ meta.repo }}/compare">open a pull request</a> 
 and supply the name and URL of your site in <code>src/data/members.json</code>
